@@ -30,6 +30,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
+
 @class MBBackgroundView;
 @protocol MBProgressHUDDelegate;
 
@@ -75,7 +76,8 @@ typedef void (^MBProgressHUDCompletionBlock)(void);
 NS_ASSUME_NONNULL_BEGIN
 
 
-/** 
+/**
+ fqy 
  * Displays a simple HUD window containing a progress indicator and two optional labels for short messages.
  *
  * This is a simple drop-in class for displaying a progress HUD view similar to Apple's private UIProgressHUD class.
